@@ -1,5 +1,6 @@
 import "./App.css";
 import Game from "./components/game";
+import { Table } from "./components/table";
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Game />
+      <Table />
       {/* <h1>Welcome to my app</h1>
       <Content/> */}
 
